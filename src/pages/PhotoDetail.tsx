@@ -15,14 +15,14 @@ const PhotoDetail: React.FC = () => {
   const photoDatabase = {
     1: {
       id: 1,
-      title: "Sunset Over Mountains",
+      title: "Moon Over Clouds",
       photographer: "John Doe",
-      image: "https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "/images/DSC00220.JPG",
       likes: 245,
       views: 1200,
       uploadDate: "2024-03-15",
       description:
-        "A beautiful sunset captured during my hiking trip in the Rocky Mountains. The golden light filtering through the peaks created this magical moment.",
+        "Moon casting a serene glow over the clouds at dusk. The soft light creates a magical atmosphere, perfect for capturing the beauty of nature.",
       camera: "Canon EOS R5",
       lens: "RF 24-70mm f/2.8L IS USM",
       settings: {
@@ -36,9 +36,9 @@ const PhotoDetail: React.FC = () => {
     },
     2: {
       id: 2,
-      title: "City Lights at Night",
+      title: "Architectural Marvels of Turkey",
       photographer: "Jane Smith",
-      image: "https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "/images/DSC00221.JPG",
       likes: 189,
       views: 890,
       uploadDate: "2024-03-14",
@@ -59,7 +59,7 @@ const PhotoDetail: React.FC = () => {
       id: 3,
       title: "Ocean Waves",
       photographer: "Mike Johnson",
-      image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "/images/DSC00272.JPG",
       likes: 312,
       views: 1500,
       uploadDate: "2024-03-13",
@@ -78,14 +78,14 @@ const PhotoDetail: React.FC = () => {
     },
     4: {
       id: 4,
-      title: "Forest Path",
+      title: "Lovely Cat",
       photographer: "Sarah Wilson",
-      image: "https://images.pexels.com/photos/1496373/pexels-photo-1496373.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "/images/DSC00372.JPG",
       likes: 156,
       views: 720,
       uploadDate: "2024-03-12",
       description:
-        "A mysterious path through the dense forest. The dappled light filtering through the canopy creates an enchanting atmosphere.",
+        "A lovely cat resting on a car in a quiet forest. The soft light filtering through the trees adds a touch of mystery to the scene.",
       camera: "Fujifilm X-T4",
       lens: "XF 18-55mm f/2.8-4 R LM OIS",
       settings: {
@@ -99,15 +99,14 @@ const PhotoDetail: React.FC = () => {
     },
     5: {
       id: 5,
-      title: "Desert Landscape",
+      title: "A Rainbow",
       photographer: "David Brown",
-      image: "https://images.pexels.com/photos/1770809/pexels-photo-1770809.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "/images/P1010956.JPG",
       likes: 203,
       views: 980,
       uploadDate: "2024-03-11",
       description:
-        "Vast desert landscape with rolling sand dunes. The interplay of light and shadow creates dramatic patterns across the sand.",
-      camera: "Canon EOS 5D Mark IV",
+        "A Rainbow over seas and mountains, capturing the beauty of nature's colors after a storm. The vibrant hues create a stunning contrast against the landscape.",
       lens: "EF 24-105mm f/4L IS USM",
       settings: {
         aperture: "f/8",
@@ -120,14 +119,14 @@ const PhotoDetail: React.FC = () => {
     },
     6: {
       id: 6,
-      title: "Urban Architecture",
+      title: "Duck in the Lake",
       photographer: "Lisa Garcia",
-      image: "https://images.pexels.com/photos/1722183/pexels-photo-1722183.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "/images/DSC00776.JPG",
       likes: 278,
       views: 1100,
       uploadDate: "2024-03-10",
       description:
-        "Modern architectural design in the heart of the city. The geometric patterns and clean lines showcase contemporary urban planning.",
+        "Duck swimming in a serene lake, enjoying a peaceful moment. The calm waters reflect the surrounding trees and sky, creating a perfect composition.",
       camera: "Sony A7 III",
       lens: "FE 24-70mm f/2.8 GM",
       settings: {
@@ -141,14 +140,14 @@ const PhotoDetail: React.FC = () => {
     },
     7: {
       id: 7,
-      title: "Golden Hour Reflection",
+      title: "Peaceful sea and ship",
       photographer: "Alex Thompson",
-      image: "https://images.pexels.com/photos/1181292/pexels-photo-1181292.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: "/images/P1010982.JPG",
       likes: 456,
       views: 2300,
       uploadDate: "2024-03-15",
       description:
-        "A breathtaking capture of the golden hour reflecting on a pristine lake, showcasing the perfect harmony between light and water. This photograph was taken during a peaceful evening at Lake Serenity.",
+        "Peaceful sea and ship, capturing the tranquility of the moment. The soft light creates a serene atmosphere, perfect for reflection.",
       camera: "Canon EOS R6",
       lens: "RF 24-105mm f/4L IS USM",
       settings: {
@@ -165,23 +164,23 @@ const PhotoDetail: React.FC = () => {
   const relatedPhotos = [
     {
       id: 1,
-      title: "Sunset Over Mountains",
+      title: "Moon Over Clouds",
       photographer: "John Doe",
-      image: "https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/images/DSC00220.JPG",
       likes: 245,
     },
     {
       id: 2,
       title: "City Lights at Night",
       photographer: "Jane Smith",
-      image: "https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/images/DSC00221.JPG",
       likes: 189,
     },
     {
       id: 3,
       title: "Ocean Waves",
       photographer: "Mike Johnson",
-      image: "https://images.pexels.com/photos/1032650/pexels-photo-1032650.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/images/DSC00272.JPG",
       likes: 312,
     },
   ]

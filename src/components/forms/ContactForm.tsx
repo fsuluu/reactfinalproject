@@ -27,7 +27,7 @@ export const ContactForm: React.FC<ContactFormProps> = ({ onSubmit, loading = fa
       message: "",
     },
     validationSchema,
-    onSubmit: (values, { resetForm }) => {
+    onSubmit: (values, { resetForm }: { resetForm: () => void }) => {
       onSubmit(values)
       resetForm()
     },

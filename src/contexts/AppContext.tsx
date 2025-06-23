@@ -98,13 +98,13 @@ export function AppProvider({ children }: AppProviderProps) {
       const initialPhotos: Photo[] = [
         {
           id: 1,
-          title: "Sunset Over Mountains",
+          title: "Moon Over Clouds",
           photographer: "John Doe",
-          image: "https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=800",
+          image: "/images/DSC00220.JPG",
           likes: 245,
           views: 1200,
           uploadDate: "2024-03-15",
-          description: "A beautiful sunset captured during my hiking trip in the Rocky Mountains.",
+          description: "Moonlight casting a serene glow over the clouds at dusk.",
           tags: ["sunset", "mountains", "nature", "landscape", "golden hour"],
           camera: "Canon EOS R5",
           lens: "RF 24-70mm f/2.8L IS USM",
@@ -118,9 +118,9 @@ export function AppProvider({ children }: AppProviderProps) {
         },
         {
           id: 2,
-          title: "City Lights at Night",
+          title: "Architectural Marvels of Turkey",
           photographer: "Jane Smith",
-          image: "https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&w=800",
+          image: "/images/DSC00643.JPG",
           likes: 189,
           views: 890,
           uploadDate: "2024-03-14",
